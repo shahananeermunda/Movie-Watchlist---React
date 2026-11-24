@@ -1,67 +1,16 @@
-# Movie Watchlist
+# React + Vite
 
-A movie discovery and watchlist application built with React that allows users to explore movies, search by title, filter by genre, and manage their watchlist.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Browse and explore movies.
-- Search movies by title.
-- Filter movies by genre.
-- View movie ratings and descriptions.
-- Add and remove movies from the watchlist.
-- Responsive user interface.
-- API integration using Axios.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Technologies
+## React Compiler
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- React Hooks
-- Axios
-- TMDB API
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Project Structure
+## Expanding the Oxlint configuration
 
-```text
-Movie-Watchlist/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package.json
-└── README.md
-```
-
-## Installation
-
-```bash
-npm install
-```
-
-## Run the Project
-
-```bash
-npm run dev
-```
-
-Open the local URL provided by Vite in your browser.
-
-## Application Pages
-
-- Home – Browse, search, and filter movies.
-- Watchlist – View and manage saved movies.
-
-## API Integration
-
-Movie data is fetched using Axios.
-
-## Data Storage
-
-Update this section according to your watchlist storage implementation.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
